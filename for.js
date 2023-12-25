@@ -70,6 +70,41 @@ for(n1; n1<=n2; n1++){
 console.log(toplam);
 }
 
+const k = 1
+const k2 = 8
+
+let toplam = 0
+for(let a = k; a<= k2 ; a++){
+    toplam = toplam + a
+}
+
+console.log(toplam);
+
+
+// BREAK AND CONTINUE
+
+// **BREAK HERHANGİ BİR DÖNGÜYÜ KIRMAK İÇİN KULLANIRIZ
+
+for(let i = 0; i<10; i++){
+    console.log(i);
+    if (i===4){
+        break
+   }
+}
+
+for(let i= 0; i<= 10 ; i++){
+    
+    if (i <=5 ) {
+        continue
+    }
+
+    if(i === 8){
+        break
+    }
+    
+    console.log(i);
+}
+
 
 
 
