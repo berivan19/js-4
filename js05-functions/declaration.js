@@ -87,3 +87,9 @@ function yaz(){
 
 yaz()
 yaz()
+
+
+
+
+
+
